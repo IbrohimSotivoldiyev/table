@@ -1,0 +1,30 @@
+// table, th, td {
+    
+   
+   
+//   }
+table{
+   border-collapse: collapse;
+   border: 0;
+  
+}
+  .site-table{
+     margin: 200px auto;
+  }
+
+
+  td{
+    text-align: center;
+  }
+  thead :nth-child(even){
+    color: azure;
+    background: rgb(21, 235, 160);
+  }
+  thead :nth-child(odd){
+     color: white;
+     background: rgba(27, 43, 104, 0.497);
+  }
+  .table-body{
+     background: white;
+  }
+
