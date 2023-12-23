@@ -26,5 +26,10 @@ table{
   }
   .table-body{
      background: white;
+     
   }
-
+tr{
+  &:hover{
+    background: yellow;
+  }
+}
